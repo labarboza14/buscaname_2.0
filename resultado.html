@@ -1,0 +1,24 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca no Arquivo Excel</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Resultado da Busca</h1>
+
+    {% if planilhas %}
+        <p>Nome encontrado nos seguintes arquivos:</p>
+        <ul>
+            {% for planilha in planilhas %}
+                <li>{{ planilha }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nome não encontrado em nenhum arquivo.</p>
+    {% endif %}
+    
+    <br><br>
+    <a href="{{ url_for('index') }}">Voltar</a>
+</body>
+</html>

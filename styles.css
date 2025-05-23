@@ -1,0 +1,122 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* Cor de fundo suave */
+    margin: 0;
+    padding: 0;
+    color: black;  /* Texto principal em preto */
+    line-height: 1.6;
+    padding: 20px; /* Adiciona espaço nas bordas da tela */
+}
+
+/* Título */
+h1 {
+    color: rgb(39, 37, 37);  /* Título em branco */
+    background-color: #4c9b3e;  /* Fundo verde */
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px 8px 0 0;
+    margin: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Sombra mais suave */
+    font-size: 2rem; /* Aumenta o tamanho da fonte */
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;  /* Bordas mais arredondadas */
+    max-width: 600px;  /* Largura máxima do formulário */
+    margin: 30px auto;  /* Centraliza o formulário */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);  /* Sombra mais suave */
+    border: 1px solid #ccc;  /* Adiciona uma borda sutil */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+}
+
+/* Label do formulário */
+label {
+    font-size: 1.1rem;
+    color: #212221;  /* Verde */
+    margin-bottom: 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Inputs (campo de texto e arquivo) */
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #4c9b3e;  /* Borda verde */
+    border-radius: 8px;  /* Bordas arredondadas */
+    font-size: 1rem;
+    color: black;  /* Texto em preto */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;  /* Transição suave para a borda */
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus {
+    border-color: #b33c00;  /* Laranja para quando o input está em foco */
+}
+
+/* Botão */
+button {
+    background-color: #b33c00;  /* Laranja */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;  /* Bordas arredondadas */
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;  /* Transição suave para o hover */
+}
+
+button:hover {
+    background-color: #9e3400;  /* Laranja escuro para hover */
+}
+
+/* Estilo para a página de resultado */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    background-color: #f2f2f2;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 8px;
+    color: black;  /* Texto das listas em preto */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Sombra mais suave */
+    transition: background-color 0.3s ease;  /* Transição suave no hover */
+}
+
+li:hover {
+    background-color: #e0e0e0;  /* Muda a cor do item quando passa o mouse */
+}
+
+/* Link */
+a {
+    color: #4c9b3e;  /* Verde */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #b33c00;  /* Laranja no hover do link */
+}
+
+/* Adicionando margens gerais ao container */
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;  /* Limita a largura total da página */
+    box-sizing: border-box;
+}
