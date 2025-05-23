@@ -1,41 +1,28 @@
-
-# Projeto de Estudo - Pesquisa e Manipulação de Planilhas com Flask
-
-## Descrição
-
-Este é um projeto desenvolvido com o propósito de estudar e aplicar conceitos de **Python**, **Flask** e **manipulação de planilhas Excel** no contexto de automação de tarefas de trabalho. O objetivo principal deste projeto é permitir a busca por um nome específico dentro de vários arquivos `.xlsx` e retornar os arquivos que contêm o nome pesquisado.
+Projeto de Estudo - Pesquisa e Manipulação de Planilhas com Flask
+Descrição
+Este é um projeto desenvolvido com o propósito de estudar e aplicar conceitos de Python, Flask e manipulação de planilhas Excel no contexto de automação de tarefas de trabalho. O objetivo principal deste projeto é permitir a busca por um nome específico dentro de vários arquivos .xlsx e retornar os arquivos que contêm o nome pesquisado.
 
 O projeto foi desenvolvido para facilitar a análise de grandes volumes de dados armazenados em planilhas, sem a necessidade de abrir cada uma manualmente. Esse tipo de automação pode ser aplicado em diversas áreas da empresa, como pesquisa de clientes, dados financeiros, e muito mais.
 
-## Funcionalidades
-
-- **Upload de arquivos Excel (.xlsx)**: Permite o envio de múltiplos arquivos `.xlsx` via interface web.
-- **Busca por nome**: O usuário pode inserir um nome e o sistema irá procurar por ele em todas as planilhas dos arquivos carregados.
-- **Exibição dos resultados**: Retorna a lista de arquivos que contêm o nome pesquisado.
-
-## Tecnologias Utilizadas
-
-- **Python** (com a biblioteca `Flask`): Backend da aplicação web.
-- **Pandas**: Para leitura e manipulação dos dados das planilhas Excel.
-- **HTML/CSS**: Para estruturação e estilo da interface do usuário.
-- **Flask**: Framework web utilizado para criar a aplicação.
-
-## Como Rodar o Projeto Localmente
-
+Funcionalidades
+Upload de arquivos Excel (.xlsx): Permite o envio de múltiplos arquivos .xlsx via interface web.
+Busca por nome: O usuário pode inserir um nome e o sistema irá procurar por ele em todas as planilhas dos arquivos carregados.
+Exibição dos resultados: Retorna a lista de arquivos que contêm o nome pesquisado.
+Tecnologias Utilizadas
+Python (com a biblioteca Flask): Backend da aplicação web.
+Pandas: Para leitura e manipulação dos dados das planilhas Excel.
+HTML/CSS: Para estruturação e estilo da interface do usuário.
+Flask: Framework web utilizado para criar a aplicação.
+Como Rodar o Projeto Localmente
 Para rodar este projeto em sua máquina local, siga os passos abaixo.
 
-### Pré-requisitos
-
-- Python 3.x
-- Pip (gerenciador de pacotes Python)
-
-### Passo a Passo
-
-1. **Clone o repositório** para o seu computador:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/PROJETO-NOME.git
-   cd PROJETO-NOME
-````
+Pré-requisitos
+Python 3.x
+Pip (gerenciador de pacotes Python)
+Passo a Passo
+Clone o repositório para o seu computador:
+git clone https://github.com/SEU_USUARIO/PROJETO-NOME.git
+cd PROJETO-NOME
 
 2. **Instale as dependências**:
    Dentro do diretório do projeto, execute:
